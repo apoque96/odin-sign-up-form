@@ -92,3 +92,27 @@ html,body{
     width: 120px;
     height: 40px;
 }
+
+h1{
+    margin-bottom: 0px;
+    padding: 0 40px;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+input,label{
+    display: block;
+}
+
+input{
+    border: 3px solid #E5E7EB;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    border: 3px solid rgb(51, 174, 211);
+    box-shadow: 3px 3px rgb(79, 167, 194);
+}
