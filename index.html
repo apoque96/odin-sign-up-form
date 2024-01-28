@@ -26,26 +26,28 @@
             </div>
             <div class="sign-up">
                 <h1>Let's do this!</h1>
-                <form id="main-form" action="/index.html" method="post">
+                <form id="main-form">
                     <ul>
                         <li>
                             <label for="first-name">
                                 First Name
                             </label>
-                            <input type="text" id="first-name" name="firstName" required>
+                            <input type="text" id="first-name" name="firstName" required
+                            placeholder="Luigi">
                         </li>
                         <li>
                             <label for="mail">
                                 Email
                             </label>
-                            <input type="email" id="mail" name="email" required>
+                            <input type="email" id="mail" name="email" required
+                            placeholder="LuigiBros@gmail.com">
                         </li>
                         <li>
                             <label for="pwd">
                                 Password
                             </label>
-                            <input type="password" id="pwd" name="password" class="error"
-                            minlength="5" maxlength="20" required>
+                            <input type="password" id="pwd" name="password"
+                            minlength="5" maxlength="20" required placeholder="*****">
                         </li>
                     </ul>
                     <ul>
@@ -53,22 +55,26 @@
                             <label for="last-name">
                                 Last Name
                             </label>
-                            <input type="text" id="last-name" name="lastName" required>
+                            <input type="text" id="last-name" name="lastName" required
+                            placeholder="Mario">
                         </li>
                         <li>
                             <label for="phone">
                                 Phone number
                             </label>
                             <input type="tel" id="phone" name="phoneNumber"
-                             pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                             pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required
+                             placeholder="999-99-999">
                         </li>
                         <li>
                             <label for="confirm">
                                 Confirm Password
                             </label>
-                            <input type="password" id="confirm" class="error" required>
+                            <input type="password" id="confirm"  required
+                            placeholder="*****">
                         </li>
                     </ul>
+                    <p class="warning">* Passwords do not match</p>
                 </form>
             </div>
             <div class="footer">
@@ -77,5 +83,6 @@
             </div>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

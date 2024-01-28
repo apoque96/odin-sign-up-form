@@ -101,6 +101,7 @@ h1{
 ul{
     list-style-type: none;
     display: inline-block;
+    margin-bottom: 0;
 }
 
 input,label{
@@ -115,4 +116,15 @@ input{
 input:focus{
     border: 3px solid rgb(51, 174, 211);
     box-shadow: 3px 3px rgb(79, 167, 194);
+}
+
+.error{
+    border: 3px solid rgb(255, 15, 15);
+    box-shadow: 3px 3px rgb(255, 15, 15);
+}
+
+.warning{
+    margin: 0;
+    padding: 0 40px;
+    color: rgb(255, 15, 15);
 }
